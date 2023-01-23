@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 90px;
+    width: 80%;
+    display: flex;
+}
+
+.rightdesc{
+    margin-left: 40px;
+}
+
+.buttonn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

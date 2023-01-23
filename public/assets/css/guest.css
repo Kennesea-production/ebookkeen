@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parent{
+    background-image: url(../img/bookbg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rowdies', cursive;
+}
+
+.wrapperr{
+    width: 800px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.leftwrapper{
+    width: 50%;
+    overflow: hidden;
+}
+
+.leftwrapper img{
+    height: 500px;
+}
+
+.rightwrapper{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rightwrapper h3{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(83, 83, 83);
+    border-radius: 0%;
+    font-size: 15px;
+    transition: all 0.1s linear;
+}
+    
+.form-control:focus{
+    border-bottom: 2px solid rgb(77, 103, 143);
+    box-shadow: none;
+}
+
+.label{
+    display: block;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: rgb(108, 151, 226);
+    margin-top: 20px;
+    position: relative;
+    right: 0;
+    color: white;
+    transition: all 0.3 ease;
+}
+
+
+.btn:hover{
+    background-color: rgb(67, 118, 206);
+    color: white;
+}
+
+.buttonsub{
+    display: flex;
+    justify-content: end;
+}

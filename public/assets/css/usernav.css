@@ -6,20 +6,12 @@
     scroll-behavior: smooth;
 }
 
-a {
-    text-decoration: none;
-}
-
 .navbarr{
     position: fixed;
     z-index: 5;
     width: 100%;
     transition: all 0.3s ease;
-    font-family: 'Rowdies', cursive;
-}
-
-.navbarr.sticky{
-    background: #092539;
+    background-color: rgb(230, 230, 230);
 }
 
 .navbarr .content{
@@ -29,49 +21,37 @@ a {
     padding: 20px 60px;
 }
 
+
 .navbarr .logo a{
-    color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
     font-size: 25px;
     text-decoration: none;
+    font-family: 'Rowdies', cursive;
 }
 
-.navbarr .menu-list{
-    display: inline-flex;
+.rightnav{
+    display: flex;
+    font-size: 16px;
     align-items: center;
 }
 
-.menu-list .home:hover{
-    color: rgb(192, 192, 192);
+
+.rightnav .login:hover{    
+    background-color: rgba(219, 219, 219, 0.205);
+
 }
 
-ul{
-    padding-left: 0;
-    margin-bottom: 0;
-}
-
-.menu-list li{
-    list-style: none;
-}
-
-.menu-list li a{
-    color: rgb(238, 238, 238);
-    font-size: 18px;
+.rightnav p{
+    color: rgb(0, 0, 0);
     font-weight: 500;
     margin-left: 25px;
     text-decoration: none;
     transition: all 0.3s ease;
+    margin-bottom: 0;
 }
 
-.menu-list .login:hover{
-    /* color: rgb(191, 192, 192); */
-    background-color: rgba(219, 219, 219, 0.205);
-    /* border-color: rgb(96, 96, 236); */
-}
-
-.menu-list .login{
-    border: 1px solid rgb(238, 238, 238);
+.rightnav .login{
     padding: 5px 15px;
-    border-radius: 8px;
 }
 
 .scrollup{
@@ -83,6 +63,14 @@ ul{
     opacity: 0;
 }
 
+.btn.show{
+    border-color: transparent;
+}
+
+.btn{
+    border-width: 0px;
+}
+
 .scrollup.visible{
     opacity: 1;
 }
@@ -90,6 +78,7 @@ ul{
 .scrollup a{
     width: 40px;
     height: 40px;
+    text-decoration: none;
     color: black;
     display: flex;
     justify-content: center;
@@ -102,3 +91,5 @@ ul{
 .scrollup a:hover{
     background-color: rgb(173, 202, 235) ;
 }
+
+
